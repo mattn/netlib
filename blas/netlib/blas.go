@@ -8,6 +8,7 @@ package netlib
 
 /*
 #cgo CFLAGS: -g -O2
+#cgo windows LDFLAGS: -lcblas
 #include "cblas.h"
 */
 import "C"
